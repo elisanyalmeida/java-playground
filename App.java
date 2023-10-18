@@ -1,7 +1,14 @@
-/**
- * Um exemplo de aplicação Java usando os recurso do JDK 21,
- * que podem ainda não ser suportados pela maioria dos editores e IDEs.
- */
-void main(){
-    System.out.println("Minha Primeira Aplicação Java");
+
+public class App{
+    public static void main(String args[]){
+        System.out.println("Minha Primeira Aplicação Java");
+        int idade = 32;
+        //idade = "Elisany"; //erro pois "Elisany" não é int
+        String nome = "Elisany";
+        
+        double peso = 65.5;
+        System.out.println("Nome: " + nome);
+        System.out.println("Idade: " + idade);
+        System.out.println("Peso: " + peso);
+    }
 }
